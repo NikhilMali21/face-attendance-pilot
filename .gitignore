@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Attendance data
+attendance/*.csv
+
+# Personal face images
+data/faces/
+
+# Biometric embeddings
+models/*.pkl
+
+# InsightFace downloaded models
+models/*.onnx
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
